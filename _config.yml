@@ -19,11 +19,12 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Mi Primer Sitio con Jekyll
+author: Sergio Elias
 email: sergiojelias@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Este es una prueba para practicar la creación de sitios web con Jekyll.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/jekyll-sitio" # the subpath of your site, e.g. /blog
+url: "https://selias201.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Selias201
 github_username:  Selias201
 
