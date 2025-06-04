@@ -29,9 +29,11 @@ twitter_username: Selias201
 github_username:  Selias201
 
 # Build settings
-theme: minima
-plugins:
+# theme: null
+remote_theme: pages-themes/architect@v0.2.0
+pplugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -54,8 +56,8 @@ plugins:
 #   - vendor/ruby/
 nav:
 - title: Inicio
-   url: https://selias201.github.io/jekyll-sitio/
+  url: https://selias201.github.io/jekyll-sitio/
 - title: Sobre mí
-   url: /about
+  url: /about
 - title: Contacto
-   url: /contact
+  url: /contact
