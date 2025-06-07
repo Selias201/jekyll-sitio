@@ -22,16 +22,17 @@ title: Mi Primer Sitio con Jekyll
 author: Sergio Elias
 email: sergiojelias@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Este es una prueba para practicar la creación de sitios web con Jekyll.
+  ESitio de ejemplo usando Jekyll
 baseurl: "/jekyll-sitio" # the subpath of your site, e.g. /blog
 url: "https://selias201.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
 twitter_username: Selias201
 github_username:  Selias201
 
 # Build settings
 # theme: null
 remote_theme: pages-themes/architect@v0.2.0
-pplugins:
+plugins:
   - jekyll-feed
   - jekyll-remote-theme
 
@@ -61,3 +62,4 @@ nav:
   url: /about
 - title: Contacto
   url: /contact
+  
