@@ -7,3 +7,7 @@ title: Bienvenido
 ---
 # ¡Bienvenido!
 
+# {{ site.title }}
+
+Autor: {{ site.author }}  
+Correo: {{ site.email }}
